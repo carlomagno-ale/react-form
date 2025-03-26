@@ -47,13 +47,9 @@ export default function App() {
 
         </ul>
 
-
         <div className='row my-5'>
-
           {articles.map((title) => (
-
             <div className='col-4 mt-2'>
-
               <div className="card" style={{ width: '15rem' }}>
                 <img
                   className="card-img-top"
@@ -67,23 +63,6 @@ export default function App() {
             </div>
           ))}
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
     </>
   )
