@@ -46,6 +46,44 @@ export default function App() {
           ))}
 
         </ul>
+
+
+        <div className='row my-5'>
+
+          {articles.map((title) => (
+
+            <div className='col-4 mt-2'>
+
+              <div className="card" style={{ width: '15rem' }}>
+                <img
+                  className="card-img-top"
+                  src="https://picsum.photos/200/200.jpg"
+                  alt="random"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{title}</h5>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </>
   )
