@@ -40,7 +40,7 @@ export default function App() {
         <ul className="list-group">
           {articles.map((title) => (
             <li key={`${title}`}
-              className="list-group-item d-flex justify-content-between align-items-center">
+              className="list-group-item d-flex justify-content-between align-items-center fw-bold">
               {title}
             </li>
           ))}
@@ -57,7 +57,7 @@ export default function App() {
                   alt="random"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">{title}</h5>
+                  <h5 className="card-title fs-6">{title}</h5>
                 </div>
               </div>
             </div>
