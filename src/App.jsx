@@ -39,7 +39,7 @@ export default function App() {
 
         <ul className="list-group">
           {articles.map((title) => (
-            <li key={title}
+            <li key={`${title}`}
               className="list-group-item d-flex justify-content-between align-items-center">
               {title}
             </li>
