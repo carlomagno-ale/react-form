@@ -7,7 +7,9 @@ export default function App() {
   const [newArticle, setNewArticle] = useState('')
   const [articles, setArticles] = useState(articleList)
 
-  function handleFormSubmit() {
+  function handleFormSubmit(e) {
+
+    e.preventDefault()
 
     setArticles([newArticle, ...articles])
     setNewArticle('')
